@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account_details"
+        android:icon="@drawable/mp_details"
+        android:title="明细" />
+
+    <item
+        android:id="@+id/add_records"
+        android:icon="@drawable/mp_add"
+        android:title="记录" />
+
+    <item
+        android:id="@+id/users_settings"
+        android:icon="@drawable/mp_users"
+        android:title="我的" />
+
+</menu>
