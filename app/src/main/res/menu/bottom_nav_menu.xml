@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/account_details"
+        android:id="@+id/account_list"
         android:icon="@drawable/mp_details"
         android:title="明细" />
 
