@@ -7,19 +7,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.example.pocketbook.R;
 
-public class AddRecordFragment extends Fragment {
-
-    private TextView textView;
+public class TopIncomeFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_add_record, container, false);
+        View view = inflater.inflate(R.layout.fragment_top_income, container, false);
         return view;
     }
 }

@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 
 import com.example.pocketbook.R;
 
-public class PocketListFragment extends Fragment {
+public class TopExpendFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_pocket_list,container,false);
+        View view = inflater.inflate(R.layout.fragment_top_expend, container, false);
         return view;
     }
 }
