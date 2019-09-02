@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,29 +11,10 @@
         android:id="@+id/pocket_columns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        app:tabSelectedTextColor="@android:color/black"
+        app:tabTextColor="@android:color/holo_orange_light">
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tab_expend"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/expend"
-            android:text="支出"/>
-
-        <android.support.design.widget.TabItem
-            android:id="@+id/tab_income"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/income"
-            android:text="收入"/>
     </android.support.design.widget.TabLayout>
-
-    <LinearLayout
-        android:id="@+id/pocket_columns_fragments"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="5"></LinearLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
