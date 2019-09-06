@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.PocketListActivity"
-            android:label="记一笔"></activity>
+        <activity android:name=".view.EditAccountActivity"></activity>
+        <activity
+            android:name=".view.PocketListActivity"
+            android:label="记一笔" />
         <activity
             android:name=".view.MainPage"
             android:label="@string/title_activity_main_page">
